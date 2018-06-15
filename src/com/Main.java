@@ -22,8 +22,8 @@ public class Main extends StateBasedGame {
     public static void main(String[] args) throws SlickException {
         AppGameContainer app = new AppGameContainer(new Main("Pokemon"));
         app.setDisplayMode(720, 480, false);
-        app.setTargetFrameRate(60);
-        app.setShowFPS(false);
+//        app.setTargetFrameRate(60);
+        app.setShowFPS(true);
         app.start();
     }
 
